@@ -1,0 +1,683 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2023-07-16T06:20:36Z",
+    "dumpEventTimeStamp": "1689463236442",
+    "processId": 9508,
+    "threadId": 0,
+    "cwd": "C:\\Users\\thariq\\PEMROGAMAN\\belajar-nodejs",
+    "commandLine": [
+      "C:/NODEJS/node.exe",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v18.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.8.2",
+      "ada": "1.0.4",
+      "ares": "1.19.1",
+      "brotli": "1.0.9",
+      "cldr": "42.0",
+      "icu": "72.1",
+      "llhttp": "6.0.11",
+      "modules": "108",
+      "napi": "8",
+      "nghttp2": "1.52.0",
+      "nghttp3": "0.7.0",
+      "ngtcp2": "0.8.1",
+      "node": "18.16.1",
+      "openssl": "3.0.9+quic",
+      "simdutf": "3.2.2",
+      "tz": "2022g",
+      "undici": "5.21.0",
+      "unicode": "15.0",
+      "uv": "1.44.2",
+      "uvwasi": "0.0.15",
+      "v8": "10.2.154.26-node.26",
+      "zlib": "1.2.13"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Hydrogen",
+      "headersUrl": "https://nodejs.org/download/release/v18.16.1/node-v18.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v18.16.1/node-v18.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v18.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22621",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 107937,
+        "nice": 0,
+        "sys": 142906,
+        "idle": 44195062,
+        "irq": 13218
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 100812,
+        "nice": 0,
+        "sys": 83750,
+        "idle": 44261140,
+        "irq": 2984
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 373703,
+        "nice": 0,
+        "sys": 285890,
+        "idle": 43786109,
+        "irq": 22671
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 297703,
+        "nice": 0,
+        "sys": 181312,
+        "idle": 43966687,
+        "irq": 5406
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 76953,
+        "nice": 0,
+        "sys": 76437,
+        "idle": 44292281,
+        "irq": 1937
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 61343,
+        "nice": 0,
+        "sys": 57421,
+        "idle": 44326921,
+        "irq": 1375
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 1223796,
+        "nice": 0,
+        "sys": 1414718,
+        "idle": 41807187,
+        "irq": 166593
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 878156,
+        "nice": 0,
+        "sys": 800984,
+        "idle": 42766578,
+        "irq": 21781
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 53718,
+        "nice": 0,
+        "sys": 49203,
+        "idle": 44342765,
+        "irq": 1234
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 53343,
+        "nice": 0,
+        "sys": 46046,
+        "idle": 44346281,
+        "irq": 984
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 1021734,
+        "nice": 0,
+        "sys": 663437,
+        "idle": 42760531,
+        "irq": 19234
+      },
+      {
+        "model": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+        "speed": 2296,
+        "user": 1011296,
+        "nice": 0,
+        "sys": 647765,
+        "idle": 42786640,
+        "irq": 19546
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-NQ7JPN3S"
+  },
+  "javascriptStack": {
+    "message": "Error: teserror",
+    "stack": [
+      "at error (file:///C:/Users/thariq/PEMROGAMAN/belajar-nodejs/report.mjs:9:11)",
+      "at file:///C:/Users/thariq/PEMROGAMAN/belajar-nodejs/report.mjs:12:1"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6438912,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 6438912,
+    "availableMemory": 2192767696,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2976,
+    "usedMemory": 5930568,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 254072,
+    "externalMemory": 446468,
+    "peakMallocedMemory": 196720,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 4386816,
+        "committedMemory": 4386816,
+        "capacity": 4309928,
+        "used": 4309160,
+        "available": 768
+      },
+      "code_space": {
+        "memorySize": 471040,
+        "committedMemory": 471040,
+        "capacity": 434368,
+        "used": 434368,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 515632,
+        "used": 515576,
+        "available": 56
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030976,
+        "used": 0,
+        "available": 1030976
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030976,
+        "used": 671464,
+        "available": 359512
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7d5aefbad",
+      "symbol": "node::GetNodeReport+13117"
+    },
+    {
+      "pc": "0x00007ff7d5af3f40",
+      "symbol": "node::TriggerNodeReport+3424"
+    },
+    {
+      "pc": "0x00007ff7d5af2f48",
+      "symbol": "node::TriggerNodeReport+2600"
+    },
+    {
+      "pc": "0x00007ff7d5af2561",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff7d5b76175",
+      "symbol": "node::OnFatalError+5573"
+    },
+    {
+      "pc": "0x00007ff7d5b76d8c",
+      "symbol": "node::OnFatalError+8668"
+    },
+    {
+      "pc": "0x00007ff7d5b76a8c",
+      "symbol": "node::OnFatalError+7900"
+    },
+    {
+      "pc": "0x00007ff7d65d326d",
+      "symbol": "v8::internal::Builtins::code+248237"
+    },
+    {
+      "pc": "0x00007ff7d65d2e79",
+      "symbol": "v8::internal::Builtins::code+247225"
+    },
+    {
+      "pc": "0x00007ff7d65d313c",
+      "symbol": "v8::internal::Builtins::code+247932"
+    },
+    {
+      "pc": "0x00007ff7d65d2fa0",
+      "symbol": "v8::internal::Builtins::code+247520"
+    },
+    {
+      "pc": "0x00007ff7d66b7d81",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+558449"
+    },
+    {
+      "pc": "0x00007ff7d663b694",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+48772"
+    },
+    {
+      "pc": "0x00007ff7d666f70b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+261883"
+    },
+    {
+      "pc": "0x00007ff7d6708738",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+888616"
+    },
+    {
+      "pc": "0x00007ff7d6661014",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+202756"
+    },
+    {
+      "pc": "0x00007ff7d6639b9b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+41867"
+    },
+    {
+      "pc": "0x00007ff7d650415a",
+      "symbol": "v8::internal::Execution::CallWasm+1562"
+    },
+    {
+      "pc": "0x00007ff7d650427b",
+      "symbol": "v8::internal::Execution::CallWasm+1851"
+    },
+    {
+      "pc": "0x00007ff7d650502a",
+      "symbol": "v8::internal::Execution::TryCallScript+346"
+    },
+    {
+      "pc": "0x00007ff7d64ddb3a",
+      "symbol": "v8::internal::MicrotaskQueue::RunMicrotasks+410"
+    },
+    {
+      "pc": "0x00007ff7d64dd8da",
+      "symbol": "v8::internal::MicrotaskQueue::PerformCheckpointInternal+74"
+    },
+    {
+      "pc": "0x00007ff7d5c1bc0e",
+      "symbol": "node::CallbackScope::~CallbackScope+414"
+    },
+    {
+      "pc": "0x00007ff7d5c1bade",
+      "symbol": "node::CallbackScope::~CallbackScope+110"
+    },
+    {
+      "pc": "0x00007ff7d5b5caf5",
+      "symbol": "v8::base::CPU::has_fpu+40981"
+    },
+    {
+      "pc": "0x00007ff7d5b6e415",
+      "symbol": "DSA_meth_get_flags+40581"
+    },
+    {
+      "pc": "0x00007ff7d5c4cde7",
+      "symbol": "uv_timer_stop+1207"
+    },
+    {
+      "pc": "0x00007ff7d5c4925b",
+      "symbol": "uv_update_time+491"
+    },
+    {
+      "pc": "0x00007ff7d5c48da2",
+      "symbol": "uv_run+1266"
+    },
+    {
+      "pc": "0x00007ff7d5c1b495",
+      "symbol": "node::SpinEventLoop+325"
+    },
+    {
+      "pc": "0x00007ff7d5b2a5b8",
+      "symbol": "EVP_CIPHER_CTX_get_cipher_data+149272"
+    },
+    {
+      "pc": "0x00007ff7d5baf3a2",
+      "symbol": "node::InitializeOncePerProcess+2898"
+    },
+    {
+      "pc": "0x00007ff7d5bb0bd3",
+      "symbol": "node::Start+835"
+    },
+    {
+      "pc": "0x00007ff7d59b7ecc",
+      "symbol": "AES_cbc_encrypt+124156"
+    },
+    {
+      "pc": "0x00007ff7d6c1de58",
+      "symbol": "inflateValidate+18712"
+    },
+    {
+      "pc": "0x00007ffaba5c26ad",
+      "symbol": "BaseThreadInitThunk+29"
+    },
+    {
+      "pc": "0x00007ffabb98aa68",
+      "symbol": "RtlUserThreadStart+40"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 2685722624,
+    "total_memory": 7885950976,
+    "rss": 36204544,
+    "available_memory": 2685722624,
+    "userCpuSeconds": 0.25,
+    "kernelCpuSeconds": 0.062,
+    "cpuConsumptionPercent": 31.2,
+    "userCpuConsumptionPercent": 25,
+    "kernelCpuConsumptionPercent": 6.2,
+    "maxRss": 59109376,
+    "pageFaults": {
+      "IORequired": 17003,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410bfee2e0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7d9aa5cb0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x000002410dec5bc0",
+      "repeat": 0,
+      "firesInMsFromNow": -146510026,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410dec5c60"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000002410dec5cd8"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410dec5d50"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410dec5dc8"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410dec5e40"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7d9aa5b80"
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410dec7438",
+      "repeat": 0,
+      "firesInMsFromNow": 8083,
+      "expired": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000002410c0133b8",
+      "width": 96,
+      "height": 11,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000002410de38968",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000002410c014858",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000002410c012d88",
+      "width": 96,
+      "height": 11,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff7d9d31590",
+      "loopIdleTimeSeconds": 0.0156471
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\thariq\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_19368_CHPGVXUOKQFPGPED",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-NQ7JPN3S",
+    "COMSPEC": "C:\\windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EFC_12616": "1",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "GIT_ASKPASS": "c:\\Users\\thariq\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\thariq",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\thariq",
+    "HOSTNAME": "LAPTOP-NQ7JPN3S",
+    "INFOPATH": "/mingw64/local/info:/mingw64/share/info:/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\thariq\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-NQ7JPN3S",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\thariq\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\thariq\\OneDrive",
+    "OnlineServices": "Online Services",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\thariq\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\NODEJS;C:\\Users\\thariq\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\thariq\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\thariq\\AppData\\Roaming\\npm",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\thariq\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\thariq\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\NODEJS;C:\\Users\\thariq\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\thariq\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\thariq\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PKG_CONFIG_SYSTEM_INCLUDE_PATH": "/mingw64/include",
+    "PKG_CONFIG_SYSTEM_LIBRARY_PATH": "/mingw64/lib",
+    "platformcode": "KV",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "25",
+    "PROCESSOR_REVISION": "5000",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/c/Users/thariq/PEMROGAMAN/belajar-nodejs",
+    "RegionCode": "APJ",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "1",
+    "SSH_ASKPASS": "/mingw64/bin/git-askpass.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\windows",
+    "TEMP": "C:\\Users\\thariq\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.80.1",
+    "TMP": "C:\\Users\\thariq\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\thariq\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-NQ7JPN3S",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-NQ7JPN3S",
+    "USERNAME": "thariq",
+    "USERPROFILE": "C:\\Users\\thariq",
+    "VBOX_HWVIRTEX_IGNORE_SVM_IN_USE": "1",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\thariq\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\thariq\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-1673bf79b1-sock",
+    "WINDIR": "C:\\windows",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\NODEJS\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\System32\\OLEAUT32.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\System32\\msvcp_win.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\windows\\SYSTEM32\\powrprof.dll",
+    "C:\\windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\bcryptprimitives.dll",
+    "C:\\windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\system32\\pnrpnsp.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\wshbth.dll",
+    "C:\\windows\\system32\\nlansp_c.dll"
+  ]
+}
